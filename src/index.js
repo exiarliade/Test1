@@ -233,6 +233,6 @@ app.post("/close",function(req,resp){
     }
 })
 
-app.listen(8080, function () {
-    console.log("Started application on port %d", 8080)
+app.listen(80, function () {
+    console.log("Started application on port %d", 80)
 });
